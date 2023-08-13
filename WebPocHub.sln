@@ -5,7 +5,9 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "Models\Models.csproj", "{95627D93-4BA8-4F94-AC93-6FF7380A3D81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dal", "WebPocHub.Dal\Dal.csproj", "{E754DBCC-D83D-4829-B6B9-F85872C7178C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dal", "WebPocHub.Dal\Dal.csproj", "{E754DBCC-D83D-4829-B6B9-F85872C7178C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{349A7C2E-467F-4A44-8EC5-3A0E94E3CD13}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{E754DBCC-D83D-4829-B6B9-F85872C7178C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E754DBCC-D83D-4829-B6B9-F85872C7178C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E754DBCC-D83D-4829-B6B9-F85872C7178C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{349A7C2E-467F-4A44-8EC5-3A0E94E3CD13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{349A7C2E-467F-4A44-8EC5-3A0E94E3CD13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{349A7C2E-467F-4A44-8EC5-3A0E94E3CD13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{349A7C2E-467F-4A44-8EC5-3A0E94E3CD13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
