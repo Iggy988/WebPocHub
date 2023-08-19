@@ -16,6 +16,7 @@ builder.Services.AddDbContext<WebPocHubDbContext>(opt =>
     opt.UseSqlServer(builder.Configuration.GetConnectionString("MsSqlConStr"));
 });
 builder.Services.AddTransient<ICommonRepository<Employee>, CommonRepository<Employee>>();
+builder.Services.AddTransient<ICommonRepository<Event>, CommonRepository<Event>>();
 
 var app = builder.Build();
 
