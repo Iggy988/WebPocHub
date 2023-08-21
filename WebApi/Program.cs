@@ -17,6 +17,8 @@ builder.Services.AddDbContext<WebPocHubDbContext>(opt =>
 });
 builder.Services.AddTransient<ICommonRepository<Employee>, CommonRepository<Employee>>();
 builder.Services.AddTransient<ICommonRepository<Event>, CommonRepository<Event>>();
+builder.Services.AddTransient<IAuthenticationRepository, AuthenticationRepository>();
+
 
 var app = builder.Build();
 
